@@ -28,7 +28,7 @@ final class Reverse {
     * @return The reversed string
     */
 
-    public static String reverse(String anyString) {
+    public static String reverse(final String anyString) {
         String returnValue = null;
         // Uses recursion to reverse string
         if (anyString.length() == 0) {
